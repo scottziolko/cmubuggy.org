@@ -27,7 +27,7 @@
 ?>
 <body id="doc">
 	<div id="hd">
-		<img id="end" src="/img/headerend.gif" alt="" />
+		<img id="end" src="/img/headerend.png" alt="" />
 		<div id="rddate">Raceday 2012<br/>April 20-21 </div>
 		<div id="countdown">
 			<div id="count"><?echo $count ?></div>

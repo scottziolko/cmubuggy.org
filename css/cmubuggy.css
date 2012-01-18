@@ -1,7 +1,8 @@
 /*  ___LAYOUT___   */
 html { 
+	background-color: #000;
 	overflow-y: scroll;
-	color:#333;
+	color:#fff;
 	font-family: Helvetica, Arial;}
 #doc {
     margin: auto;
@@ -222,7 +223,7 @@ ul.tabs a.current {
 /* tab pane */
 div.pane {
 	overflow:auto;
-	background-color: #f8f8f8;
+	background-color: #666;
 	border:1px solid #999;
 	padding:15px 20px;
 	margin: 15px 0;
@@ -313,7 +314,6 @@ img[rel] {cursor: pointer; }
 
 #login{
 	text-align: center;
-	background:#f8f8f8;
 	border: 1px solid #ccc;
 	padding:5px 10px
 }

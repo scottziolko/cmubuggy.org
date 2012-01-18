@@ -10,7 +10,7 @@
 		$s = $_GET["s"];
 	}
 	$title = "CMU Buggy Alumni Association";
-	$headline = "Happy Build Season to All";
+	$headline = "";
 	switch($s){
 		case "about":
 			$title = "About | ".$title;
@@ -93,6 +93,8 @@
 	<title><?php echo($title); ?></title>
 	<?php include_once(ROOT_DIR."/content/cssjs.inc"); ?>
 </head>
+<div style="font-size:2.5em; text-align:center; font-family:courier; font-weight:bold;"><a href="http://en.wikipedia.org/wiki/Wikipedia:SOPA_initiative/Learn_more">Stop SOPA & PIPA before cool websites go dark</a></div>
+<div style="font-size:1.5em; text-align:center; font-family:courier; font-weight:bold;"><a href="http://en.wikipedia.org/wiki/Wikipedia:SOPA_initiative/Learn_more">Learn More</a> | <a href="http://americancensorship.org/">Do Something</a></div>
 <?php
 		include_once("content/pre-content.inc");
 		include_once($content);
