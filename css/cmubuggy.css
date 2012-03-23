@@ -413,8 +413,7 @@ img[rel] {cursor: pointer; }
 #contentfeed .feednext	{ float:right;}
 
 /*  ___Freeroll Status Scrollable Content___   */
-#rollslist					{ height:114px; position:relative; overflow:hidden; }
-#rollslist .group			{ height:114px; }
+#rollslist					{ height:120px; position:relative; overflow:hidden; }
 #rollslist .items			{ position:absolute; margin: 0px; height:20000em; width:190px;}
 #rollschedule .feednext { padding-left:40px; }
 
